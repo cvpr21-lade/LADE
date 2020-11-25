@@ -2,6 +2,15 @@
 
 - This codebase is built on [Causal Norm](https://github.com/KaihuaTang/Long-Tailed-Recognition.pytorch).
 
+## Install
+
+```
+conda create -n longtail pip python=3.7 -y
+source activate longtail
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+pip install pyyaml tqdm matplotlib sklearn h5py tensorboard
+```
+
 ## Training
 
 ### Preliminaries
